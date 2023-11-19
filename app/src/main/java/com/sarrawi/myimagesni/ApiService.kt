@@ -36,7 +36,7 @@ interface ApiService {
                     .addInterceptor(interceptor)
                     // أي إعدادات إضافية لـ OkHttpClient يمكنك إضافتها هنا
                     .build()
-
+//
                 val retrofit = Retrofit.Builder()
                     .baseUrl("http://www.sarrawi.bio/")
                     .client(okHttpClient)
