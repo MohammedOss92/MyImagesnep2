@@ -1,0 +1,3 @@
+
+rootProject.name = "My ImageSni"
+include ':app'
